@@ -15,8 +15,12 @@ sim = 0;
 %               sigma
 %
 %
-distance = transpose(x1 - x2) * (x1 - x2);
-sim = exp(-distance / 2 / sigma / sigma);
+
+
+
+
+
+
 % =============================================================
     
 end

@@ -115,7 +115,7 @@ clear ; close all; clc
 %  plot the data. 
 %
 
-fprintf('Loading and Visualizing Data 3 ...\n')
+fprintf('Loading and Visualizing Data ...\n')
 
 % Load from ex6data3: 
 % You will have X, y in your environment

@@ -33,7 +33,6 @@ for i = 1:length(paramSet)
         predictions = svmPredict(model, Xval);
         meanError = mean(double(predictions ~= yval));   
         if meanError < minError
-              minError = meanError
               C = C_t;
               sigma = sigma_t;
     end
